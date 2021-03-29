@@ -1,0 +1,99 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhon Whick | Perabellum</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&amp;display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!---=========LOADING=========-->
+    <section class="bg-loader">
+            <img class="logo-jhon" src="svg/jhon.svg" alt="Logo do Jhon" onload="SVGInject(this)" style="max-width: 144px;">
+    </section>
+
+    <!---=========HEADER=========-->
+    <header>
+        <nav class="navbar">
+            <div class="nav-menu">
+                <div class="logo">
+                    <img src="svg/jhon.svg" alt="Logo do Jhon" onload="SVGInject(this)">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="" class="nav-link">Home</a></li>
+                    <li><a href="" class="nav-link">Story</a></li>
+                    <li><a href="" class="nav-link">Wallpapers</a></li>
+                    <li><a href="" class="nav-link">#BeYourself</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-social">
+                <img class="social-icons facebook" src="svg/icon-facebook.svg" alt="Logo do facebook"
+                    onload="SVGInject(this)">
+                <img class="social-icons" src="svg/icon-instagram.svg" alt="Logo do instagram" onload="SVGInject(this)">
+                <img class="social-icons" src="svg/icon-twitter.svg" alt="Logo do twitter" onload="SVGInject(this)">
+                <img class="social-icons" src="svg/icon-youtube.svg" alt="Logo do youtube" onload="SVGInject(this)">
+            </div>
+            <div class="bx mr-2"></div>
+
+        </nav>
+    </header>
+
+    <!---=========video=========-->
+    <section class="bg-video">
+        <video class="video" autoplay muted loop>
+            <source src="video/jhonwickmovie.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!---=========CONTEINER=========-->
+
+    <section class="container">
+        <div class="container-item-2 item-4">
+            <div class="js-tilt">
+                <img class="jhon-wick" src="img/john-wick.png" alt="Logo do instagram" onload="SVGInject(this)" alt="">
+            </div>
+        </div>
+        <div class="container-item-1 item-1">
+            <div class="px-1">
+                <img class="jhon-wick-text" src="img/john-wick-texto.png" alt="Texto JHON WICK">
+            </div>
+            <p class="my-2 item-2" >
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a
+                ser o
+                texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um
+                texto para criar um espécime de livro, quando uma misturou os caracteres de um texto para criar um
+                espécime de livro
+            </p>
+
+            <div class="my-1 item-3">
+                <a href="" class="btn">Ver trailer</a>
+                <a href="" class="ml-3 btn-secundary">Comprar ingresso</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--========== JS ==========-->
+    <script src="js/app.js"></script>
+    <script src="js/tilt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    
+    <script>
+      $('.js-tilt').tilt({
+        perspective: 2200
+    });
+    </script>
+
+</body>
+
+</html>
